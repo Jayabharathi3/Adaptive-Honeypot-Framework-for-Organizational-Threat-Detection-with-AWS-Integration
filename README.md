@@ -1,4 +1,4 @@
-![kekee](https://github.com/user-attachments/assets/853e0d81-c46d-46a6-b71f-d5be53b6ae98)# Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
+# Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
 
 ## Title of the Project
 Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
@@ -40,7 +40,7 @@ This graphic provides a concise and understandable description of all the entiti
 ![image](https://github.com/user-attachments/assets/0cf6d94e-a583-416d-aeed-375a6ba5b829)
 
 ## System Implementation
-### Module 1: Data Collection and Preprocessing
+## Module 1: Data Collection and Preprocessing
 
 Data Collection:  
 Gather network data, including malicious traffic, unauthorized access attempts, malware activity, port scans, and exploits, from sources like honeypots, IDS, and threat intelligence feeds. Honeypots simulate vulnerabilities to attract diverse attack data.  
