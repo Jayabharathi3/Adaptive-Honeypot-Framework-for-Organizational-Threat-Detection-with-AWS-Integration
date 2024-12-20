@@ -176,62 +176,62 @@ docker-compose -f docker-compose-custom.yml down -v.
 ## OUTPUT:
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-### HOMEPAGE: 
+## HOMEPAGE: 
 ![image](https://github.com/user-attachments/assets/af73075f-76ca-445f-8c9d-e1cc5e07fd04)
 
 On the T-Pot Landing Page just click on Kibana and you will be forwarded to Kibana. You can select from a large variety of dashboards and visualizations all tailored to the T-Pot supported honeypots.
 
-### KIBANA DASHBOARD (DATA VISUALIZATION):
+## KIBANA DASHBOARD (DATA VISUALIZATION):
 ![image](https://github.com/user-attachments/assets/79d7a576-53eb-40c0-af4b-6a3eb921fd84)
 
 The Kibana dashboard in T-Pot is an intuitive, web-based interface used for visualizing, analyzing, and managing data collected by the T-Pot honeypot framework. T-Pot integrates multiple honeypots and security tools to detect and analyze malicious activities, and Kibana serves as the visualization layer for this data.
 
-### ATTACK MAP:
+## ATTACK MAP:
 
 ![image](https://github.com/user-attachments/assets/c50802f9-85b8-4338-b71b-b5438baca00e)
 
 The Attack Map in T-Pot’s Kibana dashboard is a dynamic visualization that showcases real-time and historical attack data, represented geographically. It plots the source and destination of cyberattacks on a world map, using lines and markers to indicate the flow of malicious traffic. Each attack is color-coded based on attributes like honeypot type, attack method, or severity, making it easy to differentiate between various threats. This map provides an instant overview of where attacks originate and their targeted regions, helping analysts identify hotspots of malicious activity globally.
 In addition to its visual appeal, By correlating geographic data with other attack metrics, organizations can uncover patterns, such as regions frequently launching specific types of attacks or the recurrence of particular IPs. This data-driven insight aids in threat intelligence gathering and proactive defense planning, making the Attack Map an essential feature for monitoring and analyzing cyber threats.
 
-### CYBER CHEF:
+## CYBER CHEF:
 
 ![image](https://github.com/user-attachments/assets/85eb157f-a679-4e5b-b6f9-bdc2b67cb0ed)
 
 On the T-Pot Landing Page just click on Cyberchef and you will be forwarded to Cyberchef. CyberChef, often referred to as "The Cyber Swiss Army Knife," is a web-based tool designed for performing various data analysis and manipulation tasks in cybersecurity, data science, and other technical fields. Developed by GCHQ, CyberChef provides a user-friendly interface for executing a wide range of operations, such as encoding, decoding, encryption, decryption, data extraction, and format conversion, all without requiring specialized programming skills.
 Key features of CyberChef include its drag-and-drop functionality for building "recipes," which are sequences of operations applied to input data. Users can easily combine multiple operations, such as converting data to Base64, decompressing a file, or searching for patterns using regular expressions, into a single workflow. CyberChef supports a vast library of operations, making it an essential tool for cybersecurity professionals, and developers to streamline data processing and analysis efficiently.
 
-### Top 10 Countries by Event Count in Honeypot Systems:
+## Top 10 Countries by Event Count in Honeypot Systems:
 
 ![top10countries](https://github.com/user-attachments/assets/4a9c1b23-a4a0-4200-b480-e973bd16895c)
 
 The adaptive honeypot framework that is fused with Amazon Web Services ensures that real-time cyber threats detected can be analyzed and visualized in a system with ease. The Figure 7.1 illustrates the distribution of events across the top 10 countries, revealing where in the world these malicious activities started. Then it will incorporate the adaptive honeypot framework with AWS so that data is seamlessly processed and stored to find malicious activities in precise ways by precise visualization. As shown, China leads the total with 49.6%, followed by the United States at 25.6%, which puts emphasis on the fact that dangerous activities are rampant within technologically advanced regions. Other contributors include Taiwan (4.8%), Russia (4.1%), and South Korea (3.4%), which indicate the worldwide nature of cyber threats that require localized and internationalized defense mechanisms.
 
-### Event Count by Protocol in Honeypot Systems:
+## Event Count by Protocol in Honeypot Systems:
 
 ![eventcoun](https://github.com/user-attachments/assets/ab221449-d975-4500-8cf4-ab930bbb0826)
 
 As can be inferred from Figure 7.2, an in-depth protocol-level analysis shows the most targeted protocol is TCP with events over 7,000. UDP and ICMP have several thousand events less than that. This can be considered a preference among attackers for reliable communication protocols: those supporting web servers or SSH, for example but also leveraging UDP and ICMP for amplification as well as reconnaissance attacks. The AWS-enabled honeypot system allows for real-time tracking of these events and provides actionable insights for securing network infrastructure. Together, these visualizations underscore the importance of advanced honeypot frameworks in identifying, analyzing, and mitigating evolving cyber threats effectively.
 
-###  Time Series of Honeypot Systems:
+##  Time Series of Honeypot Systems:
 
 ![kkkk](https://github.com/user-attachments/assets/eaf516c3-01c4-4768-b8cd-b4c48df7630c)
 
 The graph in Figure 7.3 indicates the daily count of captured events. Sharp rise from March 4, indicates that attackers soon discover this system and it has strong activity till March 8, indicating the engagement activity and exploitation attempts. Rapid drop on March 9 may be attributed to shift in focus or decreased attraction of the honeypot. It can better resolve time, be dynamically interactive, and vary representation of attacker activities compared to traditional honeypots. These characteristics facilitate further insight into the forms and patterns of attacks so it has become the current benchmark for honeypot systems and encourages real-time capability for threat identification.
 
-###  Geolocation-Based Anomaly Detection in Honeypots:
+##  Geolocation-Based Anomaly Detection in Honeypots:
 
 ![scatterplot](https://github.com/user-attachments/assets/796404ca-e496-4704-8f28-b0c565ff05bd)
 
 The scatter plot in Figure 7.4 visualizes geolocation data with anomalies identified, plotting longitude on the x-axis and latitude on the y-axis.The blue markers show normal activity, and the red ones indicate anomalies. Concentration of the blue markers points out places that may often be targeted or monitored; however, the spread of red markers indicates anomalous geolocations that can be considered outliers or rare sources of attacks. This visualization compared to a traditional honeypot shows improved geospatial analysis abilities that provide a clear cut between normal and anomalous behavior. This improves the ability to detect unusual origins of attackers, which was not as common in previous systems and supports better-informed location-specific threat responses.
 
-###  Port-Based Anomaly Detection in Honeypot:
+##  Port-Based Anomaly Detection in Honeypot:
 
 ![scatter1](https://github.com/user-attachments/assets/90697ae7-0075-41d5-81c7-44a922e931ed)
 
 This scatter plot in Figure 7.5 visualizes the relationship between source ports (x-axis) and destination ports (y-axis) in honeypot data, distinguishing between normal activity (blue points) and anomalies (red points). The clustering of blue points near lower port numbers reflects typical port usage patterns, likely representing legitimate or common network behaviors. In contrast, the dispersed red points across higher port ranges highlight anomalous activities, often linked to irregular or malicious attempts, such as port scans, unusual traffic, or exploitation efforts.
 
 
-###  Geospatial Clusters of Malicious Activity Detected by DBSCAN:
+##  Geospatial Clusters of Malicious Activity Detected by DBSCAN:
 
 ![cluster](https://github.com/user-attachments/assets/e4b36f12-600c-4b04-bc7b-e4d0838005cd)
 
@@ -239,13 +239,13 @@ Unlike previous honeypot systems, the current visualization offers more enhanced
 
 This visualization in Figure 7.6 represents the geolocation clusters identified using the DBSCAN algorithm, which is very effective for analyzing honeypot data. Unlike other techniques, such as k-means, DBSCAN adaptively identifies clusters by checking density, allowing clusters with irregular shapes and noise to be identified, as in cluster `-1`. The identified clusters represent areas with increased activity, and the larger clusters, such as Cluster 0, represent areas with significant malicious traffic. The smaller clusters and noise points represent isolated or sporadic attacks, such as reconnaissance or probing activities. This approach is particularly beneficial for honeypot research because it can easily adapt to different data distributions without requiring any preliminary assumptions about the number of clusters. It brings out novel insights into regional attack patterns, which are helpful in prioritizing resources and in identifying emerging threats. This method is much more scalable than older methods of clustering, captures real-life attack behaviors, and is useful for more effective threat analysis in honeypot systems.
 
-### Cluster Size Distribution in Geolocation Analysis (DBSCAN):
+## Cluster Size Distribution in Geolocation Analysis (DBSCAN):
 
 ![cluster2](https://github.com/user-attachments/assets/27ef43e7-0900-4338-bbd4-a49c50863e9a)
 
 The bar chart in Figure 7.7 provides valuable insights into data distribution across clusters identified by the DBSCAN algorithm. Cluster `0`, containing over 7,000 points, highlights a region of high activity, signaling a concentration of frequent or intense attacks. Cluster `1`, with around 2,000 points, represents another significant area, though less dense compared to Cluster `0`. Smaller clusters, ranging from `2` to `5`, depict localized or minor activities, possibly indicating more specific attack patterns or isolated events. Noise points, denoted as `-1`, signify outliers or anomalies in the data, reflecting abnormal behavior that deviates from standard attack patterns. This distribution indicates the possibility of the DBSCAN algorithm properly detecting high-density areas and noise points as well, although minor discrete clusters-thus describing a comprehensive overview of geolocation-oriented attacking patterns. Such insights enhance the efficiency of honeypot research by identifying regions of high concentration of threat activities and unique anomalies, hence a more comprehensive and accurate assessment of the attackers' behavior and strategies. This will help better understand the geospatial attack dynamics and create more precise and proactive cybersecurity strategies.
 
-### Proportion of Normal and Anomalous Events Detected:
+## Proportion of Normal and Anomalous Events Detected:
 
 ![anamoly](https://github.com/user-attachments/assets/b2034e85-858b-4ddd-af8c-70b8eb9deeb5)
 
