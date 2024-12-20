@@ -35,6 +35,9 @@ The Adaptive Honeypot Framework for Organizational Threat Detection is a dynamic
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
+This graphic provides a concise and understandable description of all the entities currently integrated into the system. The diagram shows how the many actions and choices are linked together. You might say that the whole process and how it was carried out is a picture. The figure below shows the functional connections between various entities.
+
+![image](https://github.com/user-attachments/assets/0cf6d94e-a583-416d-aeed-375a6ba5b829)
 
 
 
