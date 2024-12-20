@@ -1,4 +1,4 @@
-# Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
+![kekee](https://github.com/user-attachments/assets/853e0d81-c46d-46a6-b71f-d5be53b6ae98)# Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
 
 ## Title of the Project
 Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
@@ -177,18 +177,23 @@ docker-compose -f docker-compose-custom.yml down -v.
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 ## HOMEPAGE: 
+
 ![image](https://github.com/user-attachments/assets/af73075f-76ca-445f-8c9d-e1cc5e07fd04)
 
 On the T-Pot Landing Page just click on Kibana and you will be forwarded to Kibana. You can select from a large variety of dashboards and visualizations all tailored to the T-Pot supported honeypots.
 
 ## KIBANA DASHBOARD (DATA VISUALIZATION):
-![image](https://github.com/user-attachments/assets/79d7a576-53eb-40c0-af4b-6a3eb921fd84)
+
+![EqrmlFe - Imgur](https://github.com/user-attachments/assets/3c6ac404-9afe-4ab1-a8ba-c1c04949074f)
+
+![kekee](https://github.com/user-attachments/assets/0549f89d-e752-4251-9216-d8c95422f61d)
+
 
 The Kibana dashboard in T-Pot is an intuitive, web-based interface used for visualizing, analyzing, and managing data collected by the T-Pot honeypot framework. T-Pot integrates multiple honeypots and security tools to detect and analyze malicious activities, and Kibana serves as the visualization layer for this data.
 
 ## ATTACK MAP:
 
-![image](https://github.com/user-attachments/assets/c50802f9-85b8-4338-b71b-b5438baca00e)
+![kekekekeke](https://github.com/user-attachments/assets/7d15a073-2f7f-43d1-8582-21e20c690926)
 
 The Attack Map in T-Pot’s Kibana dashboard is a dynamic visualization that showcases real-time and historical attack data, represented geographically. It plots the source and destination of cyberattacks on a world map, using lines and markers to indicate the flow of malicious traffic. Each attack is color-coded based on attributes like honeypot type, attack method, or severity, making it easy to differentiate between various threats. This map provides an instant overview of where attacks originate and their targeted regions, helping analysts identify hotspots of malicious activity globally.
 In addition to its visual appeal, By correlating geographic data with other attack metrics, organizations can uncover patterns, such as regions frequently launching specific types of attacks or the recurrence of particular IPs. This data-driven insight aids in threat intelligence gathering and proactive defense planning, making the Attack Map an essential feature for monitoring and analyzing cyber threats.
