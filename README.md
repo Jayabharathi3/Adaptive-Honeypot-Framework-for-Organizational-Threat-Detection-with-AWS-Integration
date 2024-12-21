@@ -27,7 +27,7 @@ The Adaptive Honeypot Framework for Organizational Threat Detection is a dynamic
      - Nmap and Wireshark for network analysis.
      - ELK Stack (Elasticsearch, Logstash, Kibana) for data visualization.
      - Snort or Suricata for intrusion detection.
-     - cowrie framework
+     - cowrie framework runs fake SSH/Telnet service that mimics a real server.
 * AWS Services:
      - EC2: For hosting the honeypot instances.
      - S3: For storing logs and threat intelligence data.
