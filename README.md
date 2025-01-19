@@ -1,5 +1,10 @@
 # Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
 
+# TEAM MEMBERS:
+1. Prasannalakshmi G
+2. Jayabharathi S
+3. Varsha Sharon E
+
 ## Title of the Project
 Adaptive Honeypot Framework for Organizational Threat Detection with AWS Integration
 A scalable, adaptive honeypot framework leveraging AWS for real-time organizational threat detection and response.
